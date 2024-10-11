@@ -1,0 +1,31 @@
+{
+    "name": "openrbc-webdriver",
+    "version": "1.0.0",
+    "description": "capture web requests of filtered account transactions",
+    "license": "MIT",
+    "repository": "https://github.com/0xbitcode/OpenRBC.webdriver",
+    "author": {
+        "name": "Juan"
+    },
+    "type": "module",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node --env-file=.env index.mjs",
+        "chrome": "node --env-file=.env chrome.mjs"
+    },
+    "files": [
+        "index.mj",
+        "chrome.mjs"
+    ],
+    "keywords": [
+        "rbc",
+        "royalbank"
+    ],
+    "devDependencies": {
+        "puppeteer": "^23.5.1"
+    }
+}

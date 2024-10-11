@@ -14,12 +14,12 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node --env-file=.env index.mjs",
-        "chrome": "node --env-file=.env chrome.mjs"
+        "start": "node --env-file=.env scripts/index.mjs",
+        "chrome": "node --env-file=.env scripts/chrome.mjs"
     },
     "files": [
-        "index.mj",
-        "chrome.mjs"
+        "scripts/index.mj",
+        "scripts/chrome.mjs"
     ],
     "keywords": [
         "rbc",
